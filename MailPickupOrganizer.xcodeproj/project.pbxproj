@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB8863FB28FB3470005F0F4C /* MailPickupOrganizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8863FA28FB3470005F0F4C /* MailPickupOrganizerApp.swift */; };
+		AB8863FD28FB3470005F0F4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8863FC28FB3470005F0F4C /* ContentView.swift */; };
+		AB8863FF28FB3471005F0F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8863FE28FB3471005F0F4C /* Assets.xcassets */; };
+		AB88640228FB3471005F0F4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB88640128FB3471005F0F4C /* Preview Assets.xcassets */; };
+		AB88640C28FB3471005F0F4C /* MailPickupOrganizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88640B28FB3471005F0F4C /* MailPickupOrganizerTests.swift */; };
+		AB88641628FB3471005F0F4C /* MailPickupOrganizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88641528FB3471005F0F4C /* MailPickupOrganizerUITests.swift */; };
+		AB88641828FB3471005F0F4C /* MailPickupOrganizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88641728FB3471005F0F4C /* MailPickupOrganizerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB88640828FB3471005F0F4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB8863EF28FB3470005F0F4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB8863F628FB3470005F0F4C;
+			remoteInfo = MailPickupOrganizer;
+		};
+		AB88641228FB3471005F0F4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB8863EF28FB3470005F0F4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB8863F628FB3470005F0F4C;
+			remoteInfo = MailPickupOrganizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB8863F728FB3470005F0F4C /* MailPickupOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailPickupOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8863FA28FB3470005F0F4C /* MailPickupOrganizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailPickupOrganizerApp.swift; sourceTree = "<group>"; };
+		AB8863FC28FB3470005F0F4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB8863FE28FB3471005F0F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB88640128FB3471005F0F4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB88640728FB3471005F0F4C /* MailPickupOrganizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailPickupOrganizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB88640B28FB3471005F0F4C /* MailPickupOrganizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailPickupOrganizerTests.swift; sourceTree = "<group>"; };
+		AB88641128FB3471005F0F4C /* MailPickupOrganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailPickupOrganizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB88641528FB3471005F0F4C /* MailPickupOrganizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailPickupOrganizerUITests.swift; sourceTree = "<group>"; };
+		AB88641728FB3471005F0F4C /* MailPickupOrganizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailPickupOrganizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB8863F428FB3470005F0F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB88640428FB3471005F0F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB88640E28FB3471005F0F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB8863EE28FB3470005F0F4C = {
+			isa = PBXGroup;
+			children = (
+				AB8863F928FB3470005F0F4C /* MailPickupOrganizer */,
+				AB88640A28FB3471005F0F4C /* MailPickupOrganizerTests */,
+				AB88641428FB3471005F0F4C /* MailPickupOrganizerUITests */,
+				AB8863F828FB3470005F0F4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB8863F828FB3470005F0F4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB8863F728FB3470005F0F4C /* MailPickupOrganizer.app */,
+				AB88640728FB3471005F0F4C /* MailPickupOrganizerTests.xctest */,
+				AB88641128FB3471005F0F4C /* MailPickupOrganizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB8863F928FB3470005F0F4C /* MailPickupOrganizer */ = {
+			isa = PBXGroup;
+			children = (
+				AB8863FA28FB3470005F0F4C /* MailPickupOrganizerApp.swift */,
+				AB8863FC28FB3470005F0F4C /* ContentView.swift */,
+				AB8863FE28FB3471005F0F4C /* Assets.xcassets */,
+				AB88640028FB3471005F0F4C /* Preview Content */,
+			);
+			path = MailPickupOrganizer;
+			sourceTree = "<group>";
+		};
+		AB88640028FB3471005F0F4C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB88640128FB3471005F0F4C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB88640A28FB3471005F0F4C /* MailPickupOrganizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB88640B28FB3471005F0F4C /* MailPickupOrganizerTests.swift */,
+			);
+			path = MailPickupOrganizerTests;
+			sourceTree = "<group>";
+		};
+		AB88641428FB3471005F0F4C /* MailPickupOrganizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB88641528FB3471005F0F4C /* MailPickupOrganizerUITests.swift */,
+				AB88641728FB3471005F0F4C /* MailPickupOrganizerUITestsLaunchTests.swift */,
+			);
+			path = MailPickupOrganizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB8863F628FB3470005F0F4C /* MailPickupOrganizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB88641B28FB3471005F0F4C /* Build configuration list for PBXNativeTarget "MailPickupOrganizer" */;
+			buildPhases = (
+				AB8863F328FB3470005F0F4C /* Sources */,
+				AB8863F428FB3470005F0F4C /* Frameworks */,
+				AB8863F528FB3470005F0F4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailPickupOrganizer;
+			productName = MailPickupOrganizer;
+			productReference = AB8863F728FB3470005F0F4C /* MailPickupOrganizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB88640628FB3471005F0F4C /* MailPickupOrganizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB88641E28FB3471005F0F4C /* Build configuration list for PBXNativeTarget "MailPickupOrganizerTests" */;
+			buildPhases = (
+				AB88640328FB3471005F0F4C /* Sources */,
+				AB88640428FB3471005F0F4C /* Frameworks */,
+				AB88640528FB3471005F0F4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB88640928FB3471005F0F4C /* PBXTargetDependency */,
+			);
+			name = MailPickupOrganizerTests;
+			productName = MailPickupOrganizerTests;
+			productReference = AB88640728FB3471005F0F4C /* MailPickupOrganizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB88641028FB3471005F0F4C /* MailPickupOrganizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB88642128FB3471005F0F4C /* Build configuration list for PBXNativeTarget "MailPickupOrganizerUITests" */;
+			buildPhases = (
+				AB88640D28FB3471005F0F4C /* Sources */,
+				AB88640E28FB3471005F0F4C /* Frameworks */,
+				AB88640F28FB3471005F0F4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB88641328FB3471005F0F4C /* PBXTargetDependency */,
+			);
+			name = MailPickupOrganizerUITests;
+			productName = MailPickupOrganizerUITests;
+			productReference = AB88641128FB3471005F0F4C /* MailPickupOrganizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB8863EF28FB3470005F0F4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AB8863F628FB3470005F0F4C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AB88640628FB3471005F0F4C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AB8863F628FB3470005F0F4C;
+					};
+					AB88641028FB3471005F0F4C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AB8863F628FB3470005F0F4C;
+					};
+				};
+			};
+			buildConfigurationList = AB8863F228FB3470005F0F4C /* Build configuration list for PBXProject "MailPickupOrganizer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB8863EE28FB3470005F0F4C;
+			productRefGroup = AB8863F828FB3470005F0F4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB8863F628FB3470005F0F4C /* MailPickupOrganizer */,
+				AB88640628FB3471005F0F4C /* MailPickupOrganizerTests */,
+				AB88641028FB3471005F0F4C /* MailPickupOrganizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB8863F528FB3470005F0F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB88640228FB3471005F0F4C /* Preview Assets.xcassets in Resources */,
+				AB8863FF28FB3471005F0F4C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB88640528FB3471005F0F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB88640F28FB3471005F0F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB8863F328FB3470005F0F4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8863FD28FB3470005F0F4C /* ContentView.swift in Sources */,
+				AB8863FB28FB3470005F0F4C /* MailPickupOrganizerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB88640328FB3471005F0F4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB88640C28FB3471005F0F4C /* MailPickupOrganizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB88640D28FB3471005F0F4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB88641628FB3471005F0F4C /* MailPickupOrganizerUITests.swift in Sources */,
+				AB88641828FB3471005F0F4C /* MailPickupOrganizerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB88640928FB3471005F0F4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB8863F628FB3470005F0F4C /* MailPickupOrganizer */;
+			targetProxy = AB88640828FB3471005F0F4C /* PBXContainerItemProxy */;
+		};
+		AB88641328FB3471005F0F4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB8863F628FB3470005F0F4C /* MailPickupOrganizer */;
+			targetProxy = AB88641228FB3471005F0F4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB88641928FB3471005F0F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB88641A28FB3471005F0F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB88641C28FB3471005F0F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MailPickupOrganizer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6RH4223568;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brhhackathonMAST.MailPickupOrganizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB88641D28FB3471005F0F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MailPickupOrganizer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6RH4223568;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brhhackathonMAST.MailPickupOrganizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB88641F28FB3471005F0F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RH4223568;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brhhackathonMAST.MailPickupOrganizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MailPickupOrganizer.app/MailPickupOrganizer";
+			};
+			name = Debug;
+		};
+		AB88642028FB3471005F0F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RH4223568;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brhhackathonMAST.MailPickupOrganizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MailPickupOrganizer.app/MailPickupOrganizer";
+			};
+			name = Release;
+		};
+		AB88642228FB3471005F0F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RH4223568;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brhhackathonMAST.MailPickupOrganizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MailPickupOrganizer;
+			};
+			name = Debug;
+		};
+		AB88642328FB3471005F0F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RH4223568;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brhhackathonMAST.MailPickupOrganizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MailPickupOrganizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB8863F228FB3470005F0F4C /* Build configuration list for PBXProject "MailPickupOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB88641928FB3471005F0F4C /* Debug */,
+				AB88641A28FB3471005F0F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB88641B28FB3471005F0F4C /* Build configuration list for PBXNativeTarget "MailPickupOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB88641C28FB3471005F0F4C /* Debug */,
+				AB88641D28FB3471005F0F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB88641E28FB3471005F0F4C /* Build configuration list for PBXNativeTarget "MailPickupOrganizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB88641F28FB3471005F0F4C /* Debug */,
+				AB88642028FB3471005F0F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB88642128FB3471005F0F4C /* Build configuration list for PBXNativeTarget "MailPickupOrganizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB88642228FB3471005F0F4C /* Debug */,
+				AB88642328FB3471005F0F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB8863EF28FB3470005F0F4C /* Project object */;
+}
